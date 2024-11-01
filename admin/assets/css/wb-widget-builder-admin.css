@@ -1,0 +1,31 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ #wb-builder .card, .component-edit-container .card{
+    padding: 0 !important;
+}
+.component-edit-container input[type=checkbox], input[type=radio]{
+	height: auto;
+	margin-left: -18px;
+	margin-top: 2px;
+	-webkit-appearance: auto;
+}
+.ace_editor { 
+   position: relative;
+   height: 300px;
+}
+.hidden{
+   display:  none;
+}
+.wb-row{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.wb-row label{
+	font-weight: bold;
+}
+.tpy{
+	vertical-align: top;
+	font-weight: bold;
+}
